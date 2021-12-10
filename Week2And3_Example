@@ -1,0 +1,73 @@
+1. Create an array with variable name A which consists of the following elements:
+    1  2
+    3  4
+    5  6
+    7  8
+    9  0
+   −1 −2
+    1  2
+   −3 −1
+   
+2.What is the size of A? Use MATLAB’s size function to verify your answer.
+
+3. Create one-dimensional arrays with variable names b and c which consist of the following
+elements
+      1
+      2
+      3
+      4
+      5
+      6
+      7
+      8
+
+Use semicolons to create b and use transpose operator ’ to create c
+
+4. Use row and column indices to access the element 0 of the variable A
+
+5. Use a single subscript to access the element 0 of the variable A. (Hint: MATLAB stores all
+arrays as a column vector in the memory.)
+
+6. Create a one-dimensional array with variable name d which consists of the following elements:
+      2
+      5
+      8
+      .
+      .
+      .
+      299
+7.Create a one-dimensional array with variable name e with the following elements:
+[100 95 90 . . . − 105]
+
+8. Using the variables created in Q1 and Q3, create an array with variable name B with the
+following elements
+    1 8 2
+    3 7 4
+    5 6 6
+    7 5 8
+    9 4 0
+   −1 3 −2
+    1 2 2
+   −3 1 −1
+
+9.Without entering its elements separately, create an array with variable name C which is formed
+by rotating B 90 degrees counter-clockwise.
+
+10. Without entering its elements separately, create an array with variable name D which is formed
+by rotating B 90 degrees clockwise.
+
+11. Modify your codes in Q9 and Q10 so that it works for matrices of any size.
+
+12. For this question, you will use MATLAB’s Editor window. Given its radius and height, your
+program will compute the volume of a cylinder and display the result to the user.
+– Create a new MATLAB script.
+– Use MATLAB’s input function to ask the user for the value of the radius of the cylinder.
+Assign the value to a variable.
+– Use MATLAB’s input function to ask the user for the value of the height of the cylinder.
+Assign the value to a variable.
+– Compute the volume of the cylinder and assign that value to a variable.
+– Use MATLAB’s disp function to display the result of your computation which should
+look like: The volume of the cylinder is 9.123
+– Use MATLAB’s input function to display the result of your computation which should
+look like: The volume of the cylinder is 9.123
+
